@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, NavItem,NavLink} from 'reactstrap';
+import CartSummary from './CartSummary';
 
 export default class Navi extends Component {
     render() {
@@ -8,12 +9,12 @@ export default class Navi extends Component {
                 <Nav>
                     <NavItem>
                         <NavLink>
-                            Link
+                            <CartSummary removeFromCart={this.props.removeFromCart} cart={this.props.cart} />
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="#">
-                            Number of Product - {this.props.cart.length}
+                            Number of Product
                         </NavLink>
                     </NavItem>
                 </Nav>
