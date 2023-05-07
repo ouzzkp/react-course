@@ -6,6 +6,8 @@ import { Container, Row, Col } from 'reactstrap'
 
 
 function App() {
+  let titleOfProduct = "Product List";
+  let titleOfCategory = "Category List";
   return (
     <div>
       <Container>
@@ -14,12 +16,12 @@ function App() {
             <Navi />
           </Row>
           <Col xs="3">
-          <CategoryList />
+            <CategoryList title={titleOfCategory}/>
           </Col>
           <Col xs="9">
-          <ProductList />
-        </Col>
-          </Row>
+            <ProductList title={titleOfProduct}/>
+          </Col>
+        </Row>
       </Container>
 
 
