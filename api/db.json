@@ -68,7 +68,7 @@
       "unitInStock": 20
     },
     {
-      "id": 6,
+      "id": 2,
       "categoryId": 3,
       "productName": "Koşu Bandı",
       "quantityPerUnit": "1 adet",
@@ -76,7 +76,7 @@
       "unitInStock": 2
     },
     {
-      "id": 7,
+      "id": 4,
       "categoryId": 1,
       "productName": "LG 55'' 4K UHD Smart TV",
       "quantityPerUnit": "1 adet",
@@ -84,7 +84,7 @@
       "unitInStock": 6
     },
     {
-      "id": 8,
+      "id": 4,
       "categoryId": 2,
       "productName": "Bahçe Salıncak Seti",
       "quantityPerUnit": "1 adet",
@@ -92,7 +92,7 @@
       "unitInStock": 4
     },
     {
-      "id": 9,
+      "id": 5,
       "categoryId": 2,
       "productName": "Elektrikli Süpürge",
       "quantityPerUnit": "1 adet",
