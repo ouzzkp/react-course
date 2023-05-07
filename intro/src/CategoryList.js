@@ -14,7 +14,7 @@ export default class CategoryList extends Component {
         };
     }
 
-    componentDidMount(){
+    componentDidMount() {
         this.getCategories();
     }
 
@@ -29,7 +29,10 @@ export default class CategoryList extends Component {
                 <ListGroup>
                     {
                         this.state.categories.map(category => (
-                            <ListGroupItem onClick={() => this.props.changeCategory(category)} key={category.Id}>
+                            <ListGroupItem
+                                active={category.categoryName === this.props.currentCategory ? true : false}
+                                onClick={() => this.props.changeCategory(category)}
+                                key={category.Id}>
                                 {category.categoryName}
                             </ListGroupItem>
                         ))

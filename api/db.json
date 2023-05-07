@@ -53,7 +53,7 @@
     },
     {
       "id": 4,
-      "categoryId": 2,
+      "categoryId": 4,
       "productName": "Mutfak Dolabı",
       "quantityPerUnit": "1 adet",
       "unitPrice": 2799.99,
@@ -68,7 +68,7 @@
       "unitInStock": 20
     },
     {
-      "id": 2,
+      "id": 6,
       "categoryId": 3,
       "productName": "Koşu Bandı",
       "quantityPerUnit": "1 adet",
@@ -76,24 +76,24 @@
       "unitInStock": 2
     },
     {
-      "id": 4,
-      "categoryId": 1,
+      "id": 7,
+      "categoryId": 5,
       "productName": "LG 55'' 4K UHD Smart TV",
       "quantityPerUnit": "1 adet",
       "unitPrice": 3999.99,
       "unitInStock": 6
     },
     {
-      "id": 4,
-      "categoryId": 2,
+      "id": 8,
+      "categoryId": 4,
       "productName": "Bahçe Salıncak Seti",
       "quantityPerUnit": "1 adet",
       "unitPrice": 1999.99,
       "unitInStock": 4
     },
     {
-      "id": 5,
-      "categoryId": 2,
+      "id": 9,
+      "categoryId": 5,
       "productName": "Elektrikli Süpürge",
       "quantityPerUnit": "1 adet",
       "unitPrice": 799.99,
@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "categoryId": 3,
+      "categoryId": 4,
       "productName": "Basketbol Topu",
       "quantityPerUnit": "1 adet",
       "unitPrice": 29.99,

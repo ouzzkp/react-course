@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { List, ListGroup, ListGroupItem, Table } from 'reactstrap'
+import { List, ListGroup, ListGroupItem, Table, Button } from 'reactstrap'
 
 export default class ProductList extends Component {
-
     // In older versions this block forced to use 
     // but with the new versions of React 
     // its depents on you
@@ -10,6 +9,9 @@ export default class ProductList extends Component {
         super(props);
         state:{}
     } */
+    
+    
+
     render() {
         return (
             <div>
@@ -22,6 +24,7 @@ export default class ProductList extends Component {
                             <th>Product Name</th>
                             <th>Unit Price</th>
                             <th>Unit in Stock</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -32,6 +35,7 @@ export default class ProductList extends Component {
                                     <td>{product.productName}</td>
                                     <td>{product.unitPrice}</td>
                                     <td>{product.unitInStock}</td>
+                                    <td><Button color="info" onClick={()=>this.props.addToCart(product)}>Add to Card</Button></td>
                                 </tr>
                             ))
                         }
