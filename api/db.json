@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Elektronik",
+      "seoUrl": "elektronik"
+    },
+    {
+      "id": 2,
+      "categoryName": "Ev & Bahçe",
+      "seoUrl": "ev-bahce"
+    },
+    {
+      "id": 3,
+      "categoryName": "Spor & Outdoor",
+      "seoUrl": "spor-outdoor"
+    },
+    {
+      "id": 4,
+      "categoryName": "Cinsel Yaşam",
+      "seoUrl": "cinsel-yasam"
+    },
+    {
+      "id": 5,
+      "categoryName": "Aksesuar",
+      "seoUrl": "aksesuar"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "Samsung Galaxy S20",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 5499.99,
+      "unitInStock": 10
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "iPhone 12 Pro",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 6999.99,
+      "unitInStock": 5
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "productName": "Çift Kişilik Yatak",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 1499.99,
+      "unitInStock": 8
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "productName": "Mutfak Dolabı",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 2799.99,
+      "unitInStock": 3
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "productName": "Yoga Matı",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 59.99,
+      "unitInStock": 20
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "productName": "Koşu Bandı",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 2499.99,
+      "unitInStock": 2
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "productName": "LG 55'' 4K UHD Smart TV",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 3999.99,
+      "unitInStock": 6
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "productName": "Bahçe Salıncak Seti",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 1999.99,
+      "unitInStock": 4
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "productName": "Elektrikli Süpürge",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 799.99,
+      "unitInStock": 12
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "productName": "Basketbol Topu",
+      "quantityPerUnit": "1 adet",
+      "unitPrice": 29.99,
+      "unitInStock": 30
+    }
+  ]
+}
+   
