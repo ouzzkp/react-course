@@ -2,24 +2,24 @@ import React, { Component } from 'react'
 import { ListGroup, ListGroupItem } from 'reactstrap'
 
 export default class CategoryList extends Component {
-   
-    // In older versions this block forced to use 
-    // but with the new versions of React 
-    // its depents on you
-    /*  constructor(props){
+
+    constructor(props) {
         super(props);
-        state:{}
-    } */
+        this.state = {
+            categories: [{ categoryId: 1, categoryName: "Beverages" },
+            { categoryId: 2, categoryName: "Foods" }]
+        };
+    }
     render() {
         return (
             <div>
                 <h3>{this.props.info.title}</h3>
                 <ListGroup>
-                    <ListGroupItem>Ev/Bahçe</ListGroupItem>
-                    <ListGroupItem>Elektronik</ListGroupItem>
-                    <ListGroupItem>Kırtasiye</ListGroupItem>
-                    <ListGroupItem>Sağlık</ListGroupItem>
-                    <ListGroupItem>Spor</ListGroupItem>
+                    {
+                        this.state.categories.map(category => (
+                            <ListGroupItem key={category.categoryId}>{category.categoryName}</ListGroupItem>
+                        ))
+                    }
                 </ListGroup>
             </div>
         )
