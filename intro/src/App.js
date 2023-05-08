@@ -7,6 +7,8 @@ import alertify from 'alertifyjs';
 import { Route, Routes } from 'react-router-dom'
 import NotFound from "./NotFound";
 import CartList from "./CartList";
+import FormDemo1 from "./FormDemo1";
+import FormDemo2 from "./FormDemo2";
 
 export default class App extends Component {
 
@@ -31,13 +33,13 @@ export default class App extends Component {
       newCart.push({ product: product, quantity: 1 });
     }
     this.setState({ cart: newCart });
-    alertify.success(product.productName + " added successfly!")
+    alert(product.productName + " added successfly!")
   }
 
   removeFromCart = (product) => {
     let newCart = this.state.cart.filter(c => c.product.id !== product.id);
     this.setState({ cart: newCart });
-    alertify.error(product.productName + " removed successfly!")
+    alertify(product.productName + " removed successfly!")
 
   }
 
@@ -75,14 +77,14 @@ export default class App extends Component {
                     products={this.state.products}
                     currentCategory={this.state.currentCategory}
                     info={productInfo}
-                  />} />
-
+                  />}/>
                 <Route exact path="/cart" element={
                   <CartList
                     removeFromCart={this.removeFromCart}
                     cart={this.state.cart}
-                  />} />
-
+                  />}/>
+                  <Route exact path="/form" element={<FormDemo1 />} />
+                  <Route exact path="/form2" element={<FormDemo2 />} />
                 <Route path="/*" element={<NotFound />} />
               </Routes>
 
