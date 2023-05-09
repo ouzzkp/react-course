@@ -1,26 +1,18 @@
 import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
+import CartSummary from '../cart/CartSummary';
 
 export default class Navi extends React.Component {
   render() {
     return (
       <div>
-        <p>List Based</p>
+        <p>Northwind</p>
         <Nav>
           <NavItem>
-            <NavLink href="#">Link</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Link</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Another Link</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink disabled href="#">Disabled Link</NavLink>
+            <CartSummary />
           </NavItem>
         </Nav>
-       
+
       </div>
     );
   }
